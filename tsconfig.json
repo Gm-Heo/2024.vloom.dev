@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es2022",
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "module": "es2022",
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "baseUrl": ".", // Non-relativ 모듈 혹은 paths 옵션의 기준 디렉토리
+    "paths": { // baseUrl 옵션을 기준디렉토리로 불러올 모듈의 위치 설정이 가능
+      "@/*":  ["src/*"]
+//      "@aftModule/*": ["../aft-module/src/main/*"],
+//      "@premium/*": ["src/*"]
+    },
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include" : ["src"]
+}

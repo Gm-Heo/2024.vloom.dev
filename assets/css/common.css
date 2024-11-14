@@ -1,0 +1,176 @@
+@charset "utf-8";
+/** font import **/
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+/* CSS Document */
+
+header, footer, section, article, aside, nav, details, menu, figure, figcaption, summary, canvas{display:block}
+
+body{position:relative;overflow:hidden;overflow-y: hidden;margin:0px auto;padding:0px;width:100%;height: 100%;background:#fff;color:#444;font-size:14px;font-family : 'Spoqa Han Sans Neo', 'sans-serif'}
+div, p, ol, ul, li, img, a, h1, h2, h3, h4, h5, h6, form, span, iframe, dl, dt, dd {margin:0px;padding:0px;font-family : 'Spoqa Han Sans Neo', 'sans-serif';}
+ul,ol{list-style:none}
+a{padding:0;margin:0;text-decoration: none;color:#222;vertical-align:middle;}
+table a{text-decoration:underline}
+a:hover{text-decoration: none;}
+table, th, td {margin:0;padding:0;border:0;border-spacing:0;border-collapse:collapse;table-layout:fixed}
+img {border:0px;vertical-align:middle}
+form, fieldset{margin:0;padding:0;border:none}
+caption{visibility:hidden;width:0;height:0;line-height:0;font-size:0}
+textarea, select{color:#777;border:1px solid #d0d5dd;box-sizing:border-box}
+figure, figcaption{padding:0;margin:0}
+input:focus,button:focus { outline: none; }
+select,
+input[type="radio"],
+input[type="checkbox"]{vertical-align:middle;margin:0}
+button,
+input[type="button"]{cursor:pointer;vertical-align:middle}
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="password"]{vertical-align:middle;box-sizing:border-box;border-radius: 0;}
+input[type="number"]{text-align: right}
+.blind, legend{position:absolute;left:0;top:0;visibility:hidden;width:0;height:0;line-height:0;font-size:0}
+.hidden{display:none}
+
+body.content .intro{width: 50%;transition: width 2s ;float: left;}
+body.content #content{display:block;}
+.intro{overflow: hidden;position: relative;width:100vw;height:100vh;background-color: #292929;}
+.intro .inner{position: absolute;top: 30%;left: calc((100% - (431px * 0.8)) / 2);}
+.intro canvas#idea{width:100%;height:100%}
+.intro .logo{width: calc(431px * 0.8);}
+.intro a.director{color: #fff; display: inline-block; margin-left: 10px;text-decoration: underline}
+
+#content{display:none;width: 50%;height:100vh;float: right;position: relative;overflow: overlay;overflow-x: hidden;}
+.status-wrap{position: absolute;width: 100%;text-align: center;top: calc((100% - 132px) / 2);}
+.status-wrap .title{font-size: 20px;margin-bottom: 10px;letter-spacing: 6px;}
+.status-wrap .row{margin-bottom: 5px;}
+.status-wrap .row label{font-size: 20px;display: inline-block;width: 129px;text-align: right;margin-right: 20px;}
+.status-wrap .row .number{font-size: 30px;}
+
+
+.gnb{position: fixed; bottom: 0; z-index: 1; right: 0; width: 20vw; background: #fff; padding: 10px 20px; max-width: 270px; min-width: 200px;}
+.gnb .gnb-inner{}
+.gnb .gnb-inner .gnb-item{margin: 10px 0; border-bottom: 1px dotted;}
+.gnb .gnb-inner .gnb-item a{color: #000;}
+
+dl.info{
+    margin-bottom: 27px;
+    text-align: right;
+}
+dl.info dd{}
+dl.info dt{
+    font-size: 21px;
+    color: #888;
+    margin-bottom: 1px;
+}
+
+
+.contact{
+    padding: 60px;
+}
+.contact article.title{
+    display: inline-block;
+    font-size: 70px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+.contact article.title div{overflow: hidden}
+.contact article.title div:nth-of-type(2) p{
+    color: #b8b8b8;
+}
+.contact article.title p{
+    width: -moz-max-content;
+    width: max-content;
+    white-space: nowrap;
+    line-height: 1.27;
+    margin: 0;
+    opacity:0;
+    font-weight: bold;
+}
+
+
+.projects{
+    padding: 20px 40px;
+}
+.projects .line{position:relative;padding-left: 40px;margin-left: 40px;}
+.projects .line:before{display:block;content:'';width: 2px;position: absolute;left: 0;top: 0;height: 100%;background: #292929;}
+.projects .item{
+    min-width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #292929;
+    display: block;
+    margin-bottom: 50px;
+    box-shadow: 6px 6px 12px 0px;
+}
+.projects .item:after{display:block;content:'';}
+.projects .item .title{
+    font-size: 22px;
+    letter-spacing: -.2px;
+    line-height: 36px;
+    color: #292929;
+}
+.projects .item .row{
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 0;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+.projects .item .row .col{
+    color: #888;
+    display: inline-block;
+    width: 120px;
+    font-size: 14px;
+}
+.projects .item .row .data{
+    color: #292929;
+    font-size: 14px;
+}
+
+.projects .item .desc{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #292929;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    body.content .intro{width:100%;height: 30vh;float:initial;transition : height 2s;position: relative;}
+    #content{width: 100%;height: 70vh;float: initial;}
+    .intro .logo{width: calc(431px * 0.5);}
+    .contact{padding:40px;}
+    .contact article.title{padding-top: 10px;}
+    .contact article.title p{font-size:40px }
+
+    .projects{padding: 10px 0px;margin-bottom: 125px;}
+    .projects .line{padding-left: 20px; margin-left: 20px;}
+    .projects .item{width: calc(100% - 100px); min-width: auto;}
+    .projects .item .title{font-size:17px;}
+    .projects .item .row{}
+
+}
+.slide-up-text{
+    animation: slide-up-text 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+@keyframes slide-up-text {
+    0%{
+        transform: translateY(130px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

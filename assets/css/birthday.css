@@ -1,0 +1,144 @@
+@charset "utf-8";
+/** font import **/
+@font-face {
+    font-family: 'Humanbumsuk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WindyLavender';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/WindyLavender.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* CSS Document */
+
+header, footer, section, article, aside, nav, details, menu, figure, figcaption, summary, canvas{display:block}
+
+body{position:relative;overflow:hidden;overflow-y: hidden;margin:0px auto;padding:0px;width:100%;height: 100%;background:#fff;color:#444;font-size:14px;font-family : 'WindyLavender', 'sans-serif'}
+div, p, ol, ul, li, img, a, h1, h2, h3, h4, h5, h6, form, span, iframe, dl, dt, dd {margin:0px;padding:0px;font-family : 'WindyLavender', 'sans-serif';}
+ul,ol{list-style:none}
+a{padding:0;margin:0;text-decoration: none;color:#222;vertical-align:middle;}
+table a{text-decoration:underline}
+a:hover{text-decoration: none;}
+table, th, td {margin:0;padding:0;border:0;border-spacing:0;border-collapse:collapse;table-layout:fixed}
+img {border:0px;vertical-align:middle}
+form, fieldset{margin:0;padding:0;border:none}
+caption{visibility:hidden;width:0;height:0;line-height:0;font-size:0}
+textarea, select{color:#777;border:1px solid #d0d5dd;box-sizing:border-box}
+figure, figcaption{padding:0;margin:0}
+input:focus,button:focus { outline: none; }
+select,
+input[type="radio"],
+input[type="checkbox"]{vertical-align:middle;margin:0}
+button,
+input[type="button"]{cursor:pointer;vertical-align:middle}
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="password"]{vertical-align:middle;box-sizing:border-box;border-radius: 0;}
+input[type="number"]{text-align: right}
+.blind, legend{position:absolute;left:0;top:0;visibility:hidden;width:0;height:0;line-height:0;font-size:0}
+.hidden{display:none}
+
+
+
+#body{background-image:url('/assets/images/birthday/birthday_bg.jpg');width: 100vw;height: 100vh;position: relative;overflow: overlay;}
+#body:before{content:'';display:block;position:absolute;top:0;left: 0;background-image: url('/assets/images/birthday/pattern.jpg');width: 100vw;height: 10px;background-repeat: repeat-x;}
+#body .top_flower{background-image: url('/assets/images/birthday/bg_flower_top.png');position: absolute;top: 0;left: 0;width: 100%;height: 270px;background-size: contain;background-repeat: no-repeat;}
+#body .aseon-pic{background-image:url('/assets/images/birthday/aseon-icon.png')}
+#body .left_flower{background-image:url('/assets/images/birthday/left_flower.png');width: 100px;height: 300px;position: absolute;top: 30px;background-size: contain;background-position: center;background-repeat: no-repeat;}
+#body .right_flower{background-image:url('/assets/images/birthday/right_flower.png');width: 418px;height: 413px;position: absolute;top: 0px;right: 0;background-size: contain;background-position: center;background-repeat: no-repeat;}
+#body .title{
+    position: relative;
+    top: 43px;
+    width: 100vw;
+    text-align: center;
+    line-height: 40px;
+}
+#body .title span:nth-child(1){
+    color: #7abbb2;
+    font-size: 60px;
+}
+#body .title span:nth-child(2){
+    font-size: 60px;
+    color: #ebb799;
+}
+#body .title span:nth-child(3){
+    font-size: 60px;
+    color: #ce7270;
+}
+#body .title span:nth-child(4){
+    color: #4f879c;
+    font-size: 29px;
+}
+#body .title span:last-child{
+    color: #797676;
+    font-size: 31px;
+}
+
+#body .character{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+#body .character:before{content:'';display: inline-block;position: absolute;width: 200px;height: 200px;left: calc(( 100vw / 2 ) - 110px);border-radius: 170px;background: #f9f6e9;opacity: 0.6;}
+#body .character img{
+    width: 170px;
+    position: relative;
+}
+#body .intro{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    font-size: 37px;
+}
+#body .intro p{
+    color: #787676;
+}
+#body .intro p span:first-child{
+    color: #ce7270;
+}
+#body .intro p span:nth-child(2){color:#7bbbb2}
+#body .parent{
+    width: 100vw;
+    background-image: url(/assets/images/birthday/bg_label.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 120px;
+    background-position: center;
+    text-align: center;
+    line-height: 44px;
+    font-size: 24px;
+}
+#body .parent span{
+    color: #a43531;
+    font-size: 16px;
+}
+#body .location{font-family:'Humanbumsuk' !important;position: relative;top: 150px;text-align: center;}
+#body .location h6{
+    text-align: center;
+    font-family: 'Humanbumsuk' !important;
+    font-size: 20px;
+}
+#body .location img{
+    display: inline-block;
+    margin: 10px 0;
+}
+#body .location .date{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Humanbumsuk' !important;
+}
+#body .address{font-family: 'Humanbumsuk' !important;position: relative;top: 200px;text-align: center;font-size: 23px;}
+#map{
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    top: 230px;
+    margin-bottom: 360px;
+}
