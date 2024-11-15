@@ -3,11 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "production",
-    entry: "./src/index-server.ts",
+    entry: "./src/index.ts",
     plugins: [new HtmlWebpackPlugin({
         template: './template/index.html',
         filename: path.resolve(__dirname,"./dist/prod/index.html"),
-        publicPath:'/v2/dist',
+        publicPath:'/dist',
         inject: false
     })],
     module: {

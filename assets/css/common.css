@@ -23,7 +23,7 @@ select,
 input[type="radio"],
 input[type="checkbox"]{vertical-align:middle;margin:0}
 button,
-input[type="button"]{cursor:pointer;vertical-align:middle}
+input[type="button"]{cursor:pointer;vertical-align:middle}  
 input[type="text"],
 input[type="tel"],
 input[type="number"],
@@ -35,7 +35,7 @@ input[type="number"]{text-align: right}
 body.content .intro{width: 50%;transition: width 2s ;float: left;}
 body.content #content{display:block;}
 .intro{overflow: hidden;position: relative;width:100vw;height:100vh;background-color: #292929;}
-.intro .inner{position: absolute;top: 30%;left: calc((100% - (431px * 0.8)) / 2);}
+.intro .inner{position: absolute;top: 30%;left: calc((100% - (431px * 0.8)) / 2);z-index: 101;}
 .intro canvas#idea{width:100%;height:100%}
 .intro .logo{width: calc(431px * 0.8);}
 .intro a.director{color: #fff; display: inline-block; margin-left: 10px;text-decoration: underline}
@@ -47,9 +47,9 @@ body.content #content{display:block;}
 .status-wrap .row label{font-size: 20px;display: inline-block;width: 129px;text-align: right;margin-right: 20px;}
 .status-wrap .row .number{font-size: 30px;}
 
-
-.gnb{position: fixed; bottom: 0; z-index: 1; right: 0; width: 20vw; background: #fff; padding: 10px 20px; max-width: 270px; min-width: 200px;}
-.gnb .gnb-inner{}
+.focus,
+.focus2{width:100%;height:100%;position: absolute;top:0;left:0;z-index: 100;}
+.gnb{position: fixed; bottom: 0; z-index: 101; right: 0; width: 20vw; background: #fff; padding: 10px 20px; max-width: 270px; min-width: 200px;}
 .gnb .gnb-inner .gnb-item{margin: 10px 0; border-bottom: 1px dotted;}
 .gnb .gnb-inner .gnb-item a{color: #000;}
 
@@ -136,11 +136,21 @@ dl.info dt{
 }
 
 
-
-
-
-
-
+.social-list{display: flex;position:absolute;bottom:-50px;right:0;}
+.social-list li{display: flex;margin-right: 10px;}
+.social-list li a{color: #fff;}
+.social-list li svg{width: 1.5rem;}
+.social-list li .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
 
 
 

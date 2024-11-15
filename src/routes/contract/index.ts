@@ -21,12 +21,12 @@ export class ContractRoute implements Route{
 
 const contractPage = (route : Route,builder : aftBuilder) : RouteType => {
     return {
-        path:'/contract',
+        path:'/contact',
         event:()=>{
             return {
-                path:'contract/main',
+                path:'contact/main',
                 onload:(element)=>{
-                    console.log(element);
+                    element.querySelectorAll('.title p').forEach(item=>item.classList.add('slide-up-text'));
                     return element;
                 },
                 event:{},

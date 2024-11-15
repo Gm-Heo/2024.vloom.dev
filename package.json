@@ -6,7 +6,7 @@
   "scripts": {
     "bundle": "webpack",
     "hotswap": "webpack-dev-server --mode=development",
-    "deploy": "webpack --config webpack.prod.js",
+    "deploy": "rm -rf dist && webpack --config webpack.prod.js",
     "clean": "tsc --build --clean"
   },
   "repository": {

@@ -21,7 +21,7 @@ AppRoutes(builder,builder.getRouter());
 builder
     .viewPath('/public/')
     .errorPages(errors)
-    .container(document.getElementById('content')!)
+    .container(document.querySelector('#content > .body')!)
     .interceptor((path,pageInfo:AccessPageInfo)=>{
         console.log(`access ${path}`);
         if(path !== '/'){
@@ -36,12 +36,25 @@ builder
     console.log(selector);
     document.querySelector(selector)!.addEventListener('click',(e)=>{
         let target = e.target as HTMLAnchorElement;
-        console.log(target.href!);
+        
         location.href=target.href!;
         e.preventDefault();
 
     });
 }); 
+document.querySelector('.focus')!.addEventListener('mousemove',(e : MouseEvent)=>{
+    let target = e.target as HTMLElement;
+    target.style.opacity = '1';
+    target.style.background = `radial-gradient(600px at ${e.offsetX}px ${e.offsetY}px, rgba(150,150, 150, 0.15), transparent 80%)`;
+    (document.querySelector('.focus2')! as HTMLElement).style.opacity = '0';
+    
+});
+document.querySelector('.focus2')!.addEventListener('mousemove',(e : MouseEvent)=>{
+    let target = e.target as HTMLElement;
+    target.style.opacity = '1';
+    target.style.background = `radial-gradient(600px at ${e.offsetX}px ${e.offsetY}px, rgba(0,0, 0, 0.15), transparent 80%)`;
+    (document.querySelector('.focus')! as HTMLElement).style.opacity = '0';
+});
 window.addEventListener('resize',()=>{
     window['_isMobile']=window.innerWidth<1024;
 });
