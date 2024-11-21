@@ -10,6 +10,7 @@ export class ProjectRoute implements Route{
 
     constructor(builder : aftBuilder) {
         this.builder = builder;
+        
     }
 
     call() : RouteType[]{
@@ -23,16 +24,96 @@ export class ProjectRoute implements Route{
 }
 
 const projectPage = (route : Route,builder : aftBuilder) : RouteType => {
+
+    const _createVideoPopup = (src: string) => {
+        
+        const popup = document.createElement('div');
+        popup.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        `;
+
+        const video = document.createElement('video');
+        video.src = src || '';
+        video.controls = true;
+        video.autoplay = true;
+        video.style.cssText = `
+            max-width: 90%;
+            max-height: 90%;
+        `;
+
+        popup.appendChild(video);
+        
+        popup.addEventListener('click', (e) => {
+            if(e.target === popup) {
+                popup.remove();
+            }
+        });
+        document.body.appendChild(popup);
+
+    }
+    const _createImagePopup = (src: string) => {
+        const popup = document.createElement('div');
+        popup.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        `;
+
+        const img = document.createElement('img');
+        img.src = src || '';
+        img.style.cssText = `
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        `;
+
+        popup.appendChild(img);
+        
+        popup.addEventListener('click', (e) => {
+            if(e.target === popup) {
+                popup.remove();
+            }
+        });
+
+        document.body.appendChild(popup);
+    }
+    const _onPreview = (btn : HTMLElement,e:MouseEvent)=>{
+        const src = btn.getAttribute('data-src');
+        const type = btn.getAttribute('data-list');
+        if(type == 'video'){
+            _createVideoPopup(src || '');
+            
+        }else if(type == 'image'){
+            _createImagePopup(src || '');
+        }
+    }
     return {
         path:'/project',
         event:()=>{
             return {
                 path:'project/main',
                 onload:(element)=>{
-                    console.log('project path');
                     return element;
                 },
-                event:{},
+                event:{
+                    onPreview:_onPreview
+                },
                 listner:{}
             }
         }

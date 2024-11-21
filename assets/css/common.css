@@ -90,21 +90,28 @@ dl.info dt{
 
 
 .projects{
-    padding: 20px 40px;
-}
-.projects .line{position:relative;padding-left: 40px;margin-left: 40px;}
-.projects .line:before{display:block;content:'';width: 2px;position: absolute;left: 0;top: 0;height: 100%;background: #292929;}
-.projects .item{
-    min-width: 370px;
     padding: 20px;
-    border-radius: 10px;
+    padding-bottom: 300px;
+}
+.projects .line{position:relative;margin-left: 20px;}
+.projects .item{
+    position: relative;
+    min-width: 370px;
+    padding: 20px 20px 20px 150px;
     background-color: #ffffff;
-    border: 1px solid #292929;
     display: block;
-    margin-bottom: 50px;
-    box-shadow: 6px 6px 12px 0px;
+    margin-bottom: 25;
 }
 .projects .item:after{display:block;content:'';}
+
+.projects .line .item .date{
+    position:absolute;
+    left: 0;        
+    top: 30px;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
 .projects .item .title{
     font-size: 22px;
     letter-spacing: -.2px;
@@ -134,7 +141,29 @@ dl.info dt{
     font-size: 12px;
     color: #292929;
 }
+.projects .item .tech-list {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    overflow-x: overlay;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    z-index: 101;
+}
+.projects .item .tech-list::-webkit-scrollbar {
+    display: none;
+  }
+.projects .item .tech-list::-webkit-scrollbar{display: none;}
 
+.projects .item .tech-list li {
+    font-size: 12px;
+    color: #888;
+    padding: 3px 8px;
+    background-color: rgba(41, 41, 41, 0.1);
+    border-radius: 4px;
+}
 
 .social-list{display: flex;position:absolute;bottom:-50px;right:0;}
 .social-list li{display: flex;margin-right: 10px;}
@@ -152,10 +181,15 @@ dl.info dt{
     border-width: 0;
 }
 
-
-
-
+.preview-wrap{position: relative; z-index: 101;width:100%;overflow-x: overlay;overflow-y: hidden;}
+.preview-list{display: flex;gap: 10px;margin-top: 10px;}
+.preview-list li{position: relative;width: 150px;height: 100px;border-radius: 4px;overflow: hidden;}
+.preview-list li:hover{transform: scale(1.1);cursor: pointer;}
+.preview-list li span{display: block;width: 100%;height: 100%;background-size: cover;background-position: center;}
+.preview-list li[data-list="video"]:hover:after{content:'';position: absolute;top: 0;left: 0;display: block;background-repeat: no-repeat;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);background-image:url('/assets/images/btn-play.png');background-size: 15px;background-position: center;}
+.preview-list li[data-list="image"]:hover:after{content:'';position: absolute;top: 0;left: 0;display: block;background-repeat: no-repeat;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);background-image:url('/assets/images/btn-image.png');background-size: 15px;background-position: center;}
 @media only screen and (max-width: 900px) {
+    .preview-wrap{width:calc(100% + 160px);left:-160px;}
     body.content .intro{width:100%;height: 30vh;float:initial;transition : height 2s;position: relative;}
     #content{width: 100%;height: 70vh;float: initial;}
     .intro .logo{width: calc(431px * 0.5);}
@@ -165,9 +199,9 @@ dl.info dt{
 
     .projects{padding: 10px 0px;margin-bottom: 125px;}
     .projects .line{padding-left: 20px; margin-left: 20px;}
-    .projects .item{width: calc(100% - 100px); min-width: auto;}
+    .projects .item{width: calc(100% - 170px); min-width: auto;}
     .projects .item .title{font-size:17px;}
-    .projects .item .row{}
+    
 
 }
 .slide-up-text{
