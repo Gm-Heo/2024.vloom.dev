@@ -4,13 +4,22 @@
      <meta charset="UTF-8">
      <title>Geunmin.Heo</title>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta name="description" content="Geunmin Heo is a full-stack developer who specializes in building web applications using the Spring framework, Java, and JavaScript.">
      <meta content='width=device-width' name='viewport'>
-     <meta name="apple-mobile-web-app-capable" content="yes">
+     <meta property="og:locale" content="ko_KR">
+     <meta property="og:type" content="website">
+     <meta property="og:title" content="Geunmin.Heo">
+     <meta property="og:description" content="Geunmin Heo is a full-stack developer who specializes in building web applications using the Spring framework, Java, and JavaScript.">
+     <meta property="og:url" content="https://www.vloom.dev">
+     <meta property="og:site_name" content="Geunmin.Heo">
+     <meta name="mobile-web-app-capable" content="yes">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
      <link href="/assets/css/common.css?v=210316" rel="stylesheet">
      <% htmlWebpackPlugin.tags.headTags.forEach((tag, i) => { %>
           <%= (/script\s/.test(tag)) ? tag : null %>
      <% }) %>
      <script>
+          console.log('this site was built by aft.ts');
           window['_prefix'] = '';
           // const DOMAIN = 'http://127.0.0.1:8080/v01/';
           const DOMAIN = 'https://www.vloom.dev';

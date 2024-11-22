@@ -24,7 +24,19 @@ export class ProjectRoute implements Route{
 }
 
 const projectPage = (route : Route,builder : aftBuilder) : RouteType => {
-
+    const _closeBtn = (popup : HTMLElement)=>{
+        const btn = document.createElement('button');
+        btn.innerHTML = 'X';
+        btn.style.cssText = `
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        `;
+        btn.addEventListener('click',()=>{
+            popup.remove();
+        });
+        popup.appendChild(btn);
+    }
     const _createVideoPopup = (src: string) => {
         
         const popup = document.createElement('div');
@@ -57,6 +69,7 @@ const projectPage = (route : Route,builder : aftBuilder) : RouteType => {
                 popup.remove();
             }
         });
+        _closeBtn(popup);
         document.body.appendChild(popup);
 
     }
@@ -90,7 +103,7 @@ const projectPage = (route : Route,builder : aftBuilder) : RouteType => {
                 popup.remove();
             }
         });
-
+        _closeBtn(popup);
         document.body.appendChild(popup);
     }
     const _onPreview = (btn : HTMLElement,e:MouseEvent)=>{
