@@ -199,7 +199,7 @@ dl.info dt{
     .contact article.title p{font-size:33px }
 
     .projects{padding: 10px 0px;margin-bottom: 125px;}
-    .projects .line{margin-left: 20px;}
+    .projects .line{margin-left: 20px;margin-bottom: 150px;}
     .projects .item{width: auto;padding-left:0;}
     .projects .item .title{font-size:17px;}
     
