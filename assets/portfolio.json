@@ -1,0 +1,1313 @@
+{
+  "projects": [
+    {
+      "date": {
+        "ko": "2018.10 ~ 현재",
+        "en": "2018.10 ~ present"
+      },
+      "title": {
+        "ko": "애프터컴퍼니 통합 시스템",
+        "en": "aftercompany hole system"
+      },
+      "from": {
+        "ko": "애프터컴퍼니",
+        "en": "aftercompany"
+      },
+      "client": {
+        "ko": "애프터컴퍼니",
+        "en": "aftercompany"
+      },
+      "role": {
+        "ko": "CTO & 풀스택 개발자",
+        "en": "CTO & Full-Stack developer"
+      },
+      "description": {
+        "ko": [
+          "Spring 프레임워크, Java, JavaScript를 사용하여 ERP, POS, KIOSK 시스템용 웹사이트를 개발하고 Amazon EC2의 Linux에서 MySQL이 있는 Apache 서버를 설정. 또한 데이터베이스 설계",
+          "마이크로서비스 아키텍처 설계 및 구현",
+          "스마트폰과 데스크톱용으로 웹사이트 최적화",
+          "서버에 SSL 인증서 설치 및 구성",
+          "디자인, 프로세스, 컨셉에 대해 클라이언트와 협업",
+          "키오스크 프로그램과 POS 프로그램 개발",
+          "시스템 관련 모든 서비스 유지보수 및 관리"
+        ],
+        "en": [
+          "Developed a website for ERP, POS, and KIOSK systems using the Spring framework, Java, and JavaScript, and set up an Apache server with MySQL on Linux hosted on Amazon EC2. Also designed the database",
+          "Designed and implemented a microservices architecture",
+          "Optimized the website for smartphones and desktops",
+          "Installed and configured an SSL certificate on the server",
+          "Collaborated with clients on design, processes, and concepts",
+          "Developed a kiosk program and a POS program",
+          "Maintained and managed all services related to the system"
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "Linux",
+        "MySQL",
+        "Electron.js"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/aft/aft_pos.mp4",
+            "image": "/assets/images/preview/aft/aft_pos_01.png"
+          },
+          {
+            "type": "video",
+            "src": "/assets/images/preview/aft/aft_pre_v1.mp4",
+            "image": "/assets/images/preview/aft/aft_pre_v1.png"
+          },
+          {
+            "type": "video",
+            "src": "/assets/images/preview/aft/aft_pre_v2.mp4",
+            "image": "/assets/images/preview/aft/aft_pre_v2.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/aft/aft_pos.mp4",
+            "image": "/assets/images/preview/aft/aft_pos_01.png"
+          },
+          {
+            "type": "video",
+            "src": "/assets/images/preview/aft/aft_pre_v1.mp4",
+            "image": "/assets/images/preview/aft/aft_pre_v1.png"
+          },
+          {
+            "type": "video",
+            "src": "/assets/images/preview/aft/aft_pre_v2.mp4",
+            "image": "/assets/images/preview/aft/aft_pre_v2.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2020.01 ~ 현재",
+        "en": "2020.01 ~ present"
+      },
+      "title": {
+        "ko": "KT&G 글로벌 서비스",
+        "en": "KT&G Global Service"
+      },
+      "from": {
+        "ko": "피봇",
+        "en": "Pivot"
+      },
+      "client": {
+        "ko": "KT&G",
+        "en": "KT&G"
+      },
+      "role": {
+        "ko": "시니어 개발자",
+        "en": "Senior Developer"
+      },
+      "description": {
+        "ko": [
+          "KT&G 글로벌 사용자를 위한 프로그램 개발 및 유지보수",
+          "연결 속도, 데이터베이스 연결 풀링 및 SQL 쿼리 개선",
+          "클라이언트와 협업하여 프로세스 및 개념 논의"
+        ],
+        "en": [
+          "Developed and maintained a program for KT&G global users.",
+          "Improved connection speed, database connection pooling, and SQL queries.",
+          "Collaborated with clients to discuss processes and concepts."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "Nexacro",
+        "Oracle"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2023.08 ~ 2023.08",
+        "en": "2023.08 ~ 2023.08"
+      },
+      "title": {
+        "ko": "Fan-up vote",
+        "en": "Fan-up vote"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "Apick",
+        "en": "Apick"
+      },
+      "role": {
+        "ko": "모바일 개발자",
+        "en": "Mobile Developer"
+      },
+      "description": {
+        "ko": [
+          "관광지 목록 검색 기능 추가",
+          "React.js를 사용하여 웹사이트 및 REST API 개발"
+        ],
+        "en": [
+          "Added a feature for searching attraction list",
+          "Developed a website and REST API using React.js"
+        ]
+      },
+      "tech": [
+        "React.js",
+        "JavaScript"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/fanup/fanup_cut.mp4",
+            "image": "/assets/images/preview/fanup/fanup_01.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/fanup/fanup_cut.mp4",
+            "image": "/assets/images/preview/fanup/fanup_01.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2022.06 ~ 2022.09",
+        "en": "2022.06 ~ 2022.09"
+      },
+      "title": {
+        "ko": "항공 기상청 모바일 앱",
+        "en": "Aviation Meteorological office mobile app"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "항공 기상청",
+        "en": "Aviation Meteorological office"
+      },
+      "role": {
+        "ko": "모바일 개발자",
+        "en": "Mobile Developer"
+      },
+      "description": {
+        "ko": [
+          "Flutter를 사용하여 모바일 앱 개발",
+          "디자이너와 클라이언트 간의 회의 주도",
+          "iOS 및 Android 플랫폼을 위한 앱 개발 및 최적화",
+          "Kotlin 및 Swift를 사용하여 Android 및 iOS 플랫폼용 홈 화면 위젯 개발 및 구현"
+        ],
+        "en": [
+          "Developed a mobile app using Flutter.",
+          "Led meetings between designers and clients.",
+          "Developed and optimized the app for both iOS and Android platforms.",
+          "Developed and implemented home screen widgets for both Android and iOS platforms using Kotlin and Swift."
+        ]
+      },
+      "tech": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Kotlin",
+        "Swift"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/air_weather/air_weather_cut.mp4",
+            "image": "/assets/images/preview/air_weather/air_weather_01.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/air_weather/air_weather_cut.mp4",
+            "image": "/assets/images/preview/air_weather/air_weather_01.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2022.06 ~ 2022.09",
+        "en": "2022.06 ~ 2022.09"
+      },
+      "title": {
+        "ko": "배달 API 시스템",
+        "en": "Delivery Api System"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "SPC",
+        "en": "SPC"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring Framework를 사용하여 완전한 배달 시스템 개발 및 데이터베이스 설계",
+          "API 연결 속도, 데이터베이스 연결 풀링 및 SQL 쿼리 성능 개선",
+          "배달 회사 및 주문 파트너와 협업",
+          "파트너 웹사이트에서 주문을 수신하고 등록된 배달 회사에 전달하는 주문 라우팅 시스템 개발",
+          "현재 시간당 3,000건 이상의 주문을 안정적으로 처리"
+        ],
+        "en": [
+          "Developed a complete delivery system using Spring Framework and designed the database.",
+          "Improved API connection speed, database connection pooling, and SQL query performance.",
+          "Collaborated with delivery companies and ordering partners.",
+          "Developed an order routing system that receives orders from partner websites and forwards them to registered delivery companies.",
+          "The system is currently handling over 3,000 orders per hour with stable performance."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2021.08 ~ 2021.12",
+        "en": "2021.08 ~ 2021.12"
+      },
+      "title": {
+        "ko": "한국어 사전 시스템",
+        "en": "Korean Dictionary System"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "한국학중앙연구원",
+        "en": "The Academy of Korean Studies"
+      },
+      "role": {
+        "ko": "풀스택 개발자 및 클라이언트 개발자",
+        "en": "Full-Stack Developer and Client Developer"
+      },
+      "description": {
+        "ko": [
+          "C#을 사용하여 클라이언트 프로그램 개발",
+          "Windows Server 및 Microsoft SQL Server 설정"
+        ],
+        "en": [
+          "Developed a client program using C#.",
+          "Set up Windows Server and Microsoft SQL Server."
+        ]
+      },
+      "tech": [
+        "C#",
+        "Windows Server",
+        "Windows Service",
+        "Microsoft SQL Server"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2020.09 ~ 2020.10",
+        "en": "2020.09 ~ 2020.10"
+      },
+      "title": {
+        "ko": "비료 연구 애플리케이션",
+        "en": "Fertilizer Research Application"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "농촌진흥청",
+        "en": "Rural Development Administration"
+      },
+      "role": {
+        "ko": "클라이언트 개발자",
+        "en": "Client Developer"
+      },
+      "description": {
+        "ko": [
+          "Electron.js를 사용하여 Windows 데스크톱 애플리케이션 개발",
+          "비료 소비 분석 도구 생성"
+        ],
+        "en": [
+          "Developed a Windows desktop application using Electron.js.",
+          "Created a fertilizer consumption analysis tool."
+        ]
+      },
+      "tech": [
+        "Electron.js",
+        "JavaScript"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/ferti/research.mp4",
+            "image": "/assets/images/preview/ferti/research_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_2.png",
+            "image": "/assets/images/preview/ferti/research_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_3.png",
+            "image": "/assets/images/preview/ferti/research_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_4.png",
+            "image": "/assets/images/preview/ferti/research_4.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_5.png",
+            "image": "/assets/images/preview/ferti/research_5.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/ferti/research.mp4",
+            "image": "/assets/images/preview/ferti/research_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_2.png",
+            "image": "/assets/images/preview/ferti/research_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_3.png",
+            "image": "/assets/images/preview/ferti/research_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_4.png",
+            "image": "/assets/images/preview/ferti/research_4.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/ferti/research_5.png",
+            "image": "/assets/images/preview/ferti/research_5.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2018.03 ~ 2019.05",
+        "en": "2018.03 ~ 2019.05"
+      },
+      "title": {
+        "ko": "커피숍 주문 시스템",
+        "en": "Order System for coffee shop"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "K-혁신센터",
+        "en": "K-Innovation Center"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring Framework를 사용하여 커피숍 온라인 스토어 개발 및 Amazon EC2 Linux 인스턴스에서 MySQL이 있는 Apache 서버 설정; 데이터베이스 설계",
+          "스마트폰 및 데스크톱 플랫폼에 최적화",
+          "웹 서버와 통신하는 Java 클라이언트 프로그램 개발",
+          "웹사이트에서 고객 주문을 처리하기 위한 클라이언트 측 프린터 통신 솔루션 구현",
+          "디자인, 프로세스 및 개념에 대해 클라이언트와 협업"
+        ],
+        "en": [
+          "Developed a coffee shop online store using Spring Framework and set up Apache server with MySQL on Amazon EC2 Linux instance; also designed the database.",
+          "Optimized for smartphone and desktop platforms.",
+          "Developed a Java client program that communicates with the web server using WebSocket.",
+          "Implemented a solution for client-side printer communication to handle customer orders from the website.",
+          "Collaborated with clients on design, processes, and concepts."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "Amazon EC2",
+        "WebSocket",
+        "Ubuntu Server"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2018.10 ~ 2018.12",
+        "en": "2018.10 ~ 2018.12"
+      },
+      "title": {
+        "ko": "직원 관리 시스템",
+        "en": "Employee Management System"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "WECO",
+        "en": "WECO"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring Framework를 사용하여 직원 관리 시스템 개발 및 데이터베이스 설계",
+          "스마트폰 및 데스크톱 플랫폼에 최적화",
+          "Linux에 Tomcat Server 및 MySQL Server 설치",
+          "웹사이트 유지보수 및 업데이트 수행",
+          "클라이언트와 협업하여 요구 사항 수집 및 시스템 개념 논의",
+          "직원 근무 시간, 작업 및 출석 모니터링을 위한 종합적인 시간 추적 시스템 개발"
+        ],
+        "en": [
+          "Developed an employee management system using Spring Framework and designed the database.",
+          "Optimized for smartphone and desktop platforms.",
+          "Installed Tomcat Server and MySQL Server on Linux.",
+          "Performed website maintenance and updates.",
+          "Collaborated with clients to gather requirements and discuss system concepts.",
+          "Developed a comprehensive time tracking system for monitoring employee work hours, tasks, and attendance."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_01.png",
+            "image": "/assets/images/preview/weco/weco_01.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_02.png",
+            "image": "/assets/images/preview/weco/weco_02.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_03.png",
+            "image": "/assets/images/preview/weco/weco_03.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_04.png",
+            "image": "/assets/images/preview/weco/weco_04.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_01.png",
+            "image": "/assets/images/preview/weco/weco_01.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_02.png",
+            "image": "/assets/images/preview/weco/weco_02.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_03.png",
+            "image": "/assets/images/preview/weco/weco_03.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/weco/weco_04.png",
+            "image": "/assets/images/preview/weco/weco_04.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2018.03 ~ 2018.06",
+        "en": "2018.03 ~ 2018.06"
+      },
+      "title": {
+        "ko": "KT&G 글로벌 모바일 프로젝트",
+        "en": "KT&G Global Mobile Project"
+      },
+      "from": {
+        "ko": "블루비",
+        "en": "Bluebee"
+      },
+      "client": {
+        "ko": "KT&G",
+        "en": "KT&G"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring Framework를 사용하여 완전한 API 시스템 개발 및 Cordova를 사용하여 Android 애플리케이션 개발",
+          "클라이언트 및 파트너 회사와 협업하여 요구 사항 수집 및 애플리케이션 사양 논의",
+          "드라이버 추적 기능이 있는 실시간 창고 관리 시스템 개발"
+        ],
+        "en": [
+          "Developed a complete API system using Spring Framework and an Android application using Cordova.",
+          "Collaborated with clients and partner companies to gather requirements and discuss application specifications.",
+          "Developed a real-time warehouse management system with driver tracking capabilities."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "Cordova"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2017.12",
+        "en": "2017.12"
+      },
+      "title": {
+        "ko": "아이스크림 케이크 사전 예약",
+        "en": "Ice Cream Cake Advance Booking"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "SPC",
+        "en": "SPC"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring Framework를 사용하여 웹사이트 개발 및 데이터베이스 설계",
+          "디자이너와 협업하여 UX/UI 디자인",
+          "Linux에 Tomcat 서버 및 데이터베이스 설치",
+          "크리스마스 시즌 사전 주문을 위한 배스킨라빈스 아이스크림 케이크의 사전 예약 시스템 개발"
+        ],
+        "en": [
+          "Developed and maintained a website using Spring Framework and designed the database.",
+          "Collaborated with designers on UX/UI design.",
+          "Installed Tomcat server and database on Linux.",
+          "Developed an advance booking system for Baskin Robbins ice cream cakes, primarily used for Christmas season pre-orders."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/baskin_br/br.mp4",
+            "image": "/assets/images/preview/baskin_br/br_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/baskin_br/br_2.png",
+            "image": "/assets/images/preview/baskin_br/br_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/baskin_br/br_3.png",
+            "image": "/assets/images/preview/baskin_br/br_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/baskin_br/br_4.png",
+            "image": "/assets/images/preview/baskin_br/br_4.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/baskin_br/br.mp4",
+            "image": "/assets/images/preview/baskin_br/br_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/baskin_br/br_2.png",
+            "image": "/assets/images/preview/baskin_br/br_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/baskin_br/br_3.png",
+            "image": "/assets/images/preview/baskin_br/br_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/baskin_br/br_4.png",
+            "image": "/assets/images/preview/baskin_br/br_4.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2017.12",
+        "en": "2017.12"
+      },
+      "title": {
+        "ko": "OPEN LAB 모니터링 시스템",
+        "en": "OPEN LAB Monitoring System"
+      },
+      "from": {
+        "ko": "KI",
+        "en": "KI"
+      },
+      "client": {
+        "ko": "NFEC",
+        "en": "NFEC"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "PHP를 사용하여 웹사이트 개발 및 데이터베이스 설계",
+          "vanilla.js를 사용하여 센서 데이터 시각화",
+          "디자이너와 협업하여 UX/UI 디자인",
+          "클라이언트 회의에 참석하여 센서 데이터 시각화 논의",
+          "온도, 습도, 빛 등의 센서 데이터 시각화를 위한 웹사이트"
+        ],
+        "en": [
+          "Developed a website using PHP and designed the database.",
+          "Visualized sensor data using vanilla.js.",
+          "Collaborated with designers on UX/UI design.",
+          "Joined client meetings to discuss visualization of sensor data.",
+          "The website is for a visualization for sensor data (temperature, humidity, light, etc.)."
+        ]
+      },
+      "tech": [
+        "PHP",
+        "JavaScript"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/openlab/openlab.mp4",
+            "image": "/assets/images/preview/openlab/openlab_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_2.png",
+            "image": "/assets/images/preview/openlab/openlab_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_3.png",
+            "image": "/assets/images/preview/openlab/openlab_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_4.png",
+            "image": "/assets/images/preview/openlab/openlab_4.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_5.png",
+            "image": "/assets/images/preview/openlab/openlab_5.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/openlab/openlab.mp4",
+            "image": "/assets/images/preview/openlab/openlab_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_2.png",
+            "image": "/assets/images/preview/openlab/openlab_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_3.png",
+            "image": "/assets/images/preview/openlab/openlab_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_4.png",
+            "image": "/assets/images/preview/openlab/openlab_4.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/openlab/openlab_5.png",
+            "image": "/assets/images/preview/openlab/openlab_5.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2017.09",
+        "en": "2017.09"
+      },
+      "title": {
+        "ko": "WOLF(대형 시설 정보 시스템)",
+        "en": "WOLF(World Of Large Facilities)"
+      },
+      "from": {
+        "ko": "KI",
+        "en": "KI"
+      },
+      "client": {
+        "ko": "NFEC",
+        "en": "NFEC"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring Framework를 사용하여 홍보 웹사이트 개발 및 데이터베이스 설계",
+          "클라이언트 회의에 참석하여 개념 논의",
+          "웹사이트는 국가 대형 시설에 대한 정보를 제공합니다."
+        ],
+        "en": [
+          "Developed a promotion website using Spring Framework and designed the database.",
+          "Joined client meetings to discuss concepts.",
+          "The website provides information about national large facilities."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "image",
+            "src": "/assets/images/preview/wolf/wolf_1.png",
+            "image": "/assets/images/preview/wolf/wolf_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/wolf/wolf_2.png",
+            "image": "/assets/images/preview/wolf/wolf_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/wolf/wolf_3.png",
+            "image": "/assets/images/preview/wolf/wolf_3.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "image",
+            "src": "/assets/images/preview/wolf/wolf_1.png",
+            "image": "/assets/images/preview/wolf/wolf_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/wolf/wolf_2.png",
+            "image": "/assets/images/preview/wolf/wolf_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/wolf/wolf_3.png",
+            "image": "/assets/images/preview/wolf/wolf_3.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2016.12 ~ 2017.03",
+        "en": "2016.12 ~ 2017.03"
+      },
+      "title": {
+        "ko": "Korea Lightning Detection System",
+        "en": "Korea Lightning Detection System"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "Kepco",
+        "en": "Kepco"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring 프레임워크를 사용하여 웹사이트 개발 및 데이터베이스 설계",
+          "PostgreSQL과 PostGIS를 사용하여 번개 위치 계산 및 표시",
+          "openlayer.js를 사용하여 커스텀 맵에서 번개 데이터 시각화",
+          "느린 페이지 응답 개선",
+          "클라이언트 회의에 참석하여 시각화 및 개념 논의",
+          "파트너 회사와 협업하여 센서 데이터 수집",
+          "웹사이트는 실시간으로 번개 탐지 데이터를 맵에 표시하고 사용자가 정의한 영역에서 번개가 감지되면 경고 메시지를 표시"
+        ],
+        "en": [
+          "Developed a website using Spring framework and designed database.",
+          "Calculated and displayed about lightning position using PostgreSQL with PostGIS.",
+          "Visualized lightning data on the custom map using openlayer.js.",
+          "Improved slow page response.",
+          "Joined client meetings to discuss visualization and concepts.",
+          "Collaborated with partner companies to collect sensor data.",
+          "The website displays lightning detection data on a map in real-time and displays warning messages when lightning is detected in a user-defined area."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "PostgreSQL",
+        "Openlayer.js",
+        "OpenGIS",
+        "PostGIS",
+        "OpenStreetMap"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/kld/kld_cut.mp4",
+            "image": "/assets/images/preview/kld/kld_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_2.png",
+            "image": "/assets/images/preview/kld/kld_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_3.png",
+            "image": "/assets/images/preview/kld/kld_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_4.png",
+            "image": "/assets/images/preview/kld/kld_4.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_5.png",
+            "image": "/assets/images/preview/kld/kld_5.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_6.png",
+            "image": "/assets/images/preview/kld/kld_6.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_7.png",
+            "image": "/assets/images/preview/kld/kld_7.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/kld/kld_cut.mp4",
+            "image": "/assets/images/preview/kld/kld_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_2.png",
+            "image": "/assets/images/preview/kld/kld_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_3.png",
+            "image": "/assets/images/preview/kld/kld_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_4.png",
+            "image": "/assets/images/preview/kld/kld_4.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_5.png",
+            "image": "/assets/images/preview/kld/kld_5.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_6.png",
+            "image": "/assets/images/preview/kld/kld_6.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/kld/kld_7.png",
+            "image": "/assets/images/preview/kld/kld_7.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2016.04 ~ 2016.07",
+        "en": "2016.04 ~ 2016.07"
+      },
+      "title": {
+        "ko": "Tobias Hutzler 포트폴리오 웹사이트",
+        "en": "Tobias Hutzler Portfolio Website"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "Tobias Hutzler",
+        "en": "Tobias Hutzler"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "PHP를 사용하여 웹사이트 개발 및 데이터베이스 설계",
+          "클라이언트 회의에 참석하여 개념 및 웹사이트 디자인 논의",
+          "웹사이트는 사진작가인 토비아스의 포트폴리오에 관한 것입니다."
+        ],
+        "en": [
+          "Developed a website using PHP and designed the database.",
+          "Joined client meetings to discuss concepts and website design.",
+          "The website is about portfolio for Tobias who is a photographer."
+        ]
+      },
+      "tech": [
+        "PHP",
+        "JavaScript"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/tobias/tobias.mp4",
+            "image": "/assets/images/preview/tobias/tobias_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/tobias/tobias_2.png",
+            "image": "/assets/images/preview/tobias/tobias_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/tobias/tobias_3.png",
+            "image": "/assets/images/preview/tobias/tobias_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/tobias/tobias_4.png",
+            "image": "/assets/images/preview/tobias/tobias_4.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/tobias/tobias.mp4",
+            "image": "/assets/images/preview/tobias/tobias_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/tobias/tobias_2.png",
+            "image": "/assets/images/preview/tobias/tobias_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/tobias/tobias_3.png",
+            "image": "/assets/images/preview/tobias/tobias_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/tobias/tobias_4.png",
+            "image": "/assets/images/preview/tobias/tobias_4.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2015.08 ~ 2015.12",
+        "en": "2015.08 ~ 2015.12"
+      },
+      "title": {
+        "ko": "국가 3D 프린팅 서비스",
+        "en": "National 3D Printing Service"
+      },
+      "client": {
+        "ko": "KI",
+        "en": "KI"
+      },
+      "from": {
+        "ko": "KI",
+        "en": "KI"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring 프레임워크를 사용하여 웹사이트 개발 및 데이터베이스 설계",
+          "클라이언트 회의에 참석하여 개념 논의",
+          "웹사이트는 무료로 3D 인쇄 파일을 제공"
+        ],
+        "en": [
+          "Developed a website using Spring framework and designed the database.",
+          "Joined client meetings to discuss concepts.",
+          "The website provides 3D print files for someone who wants that for free."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "TMAX JEUS",
+        "TMAX WEBTOB"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2015.06 ~ 2015.07",
+        "en": "2015.06 ~ 2015.07"
+      },
+      "title": {
+        "ko": "Bright Research And Infrastructure Network",
+        "en": "Bright Research And Infrastructure Network"
+      },
+      "from": {
+        "ko": "KI",
+        "en": "KI"
+      },
+      "client": {
+        "ko": "NFEC",
+        "en": "NFEC"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring 프레임워크를 사용하여 웹사이트 개발 및 데이터베이스 설계",
+          "D3.js를 사용하여 연구 데이터 시각화 및 디자이너와 협업하여 UX/UI 디자인",
+          "웹사이트는 국가 장비, 연구자 및 논문에 대한 데이터 시각화를 제공합니다."
+        ],
+        "en": [
+          "Developed a website using Spring framework and designed the database.",
+          "Visualized research data using D3.js and collaborated with designers on UX/UI design.",
+          "The website displays data visualizations about national equipment, researchers, and papers."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "D3.js",
+        "TMAX JEUS",
+        "TMAX WEBTOB"
+      ],
+      "preview": {
+        "ko": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/brain/brain.mp4",
+            "image": "/assets/images/preview/brain/brain_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/brain/brain_2.png",
+            "image": "/assets/images/preview/brain/brain_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/brain/brain_3.png",
+            "image": "/assets/images/preview/brain/brain_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/brain/brain_4.png",
+            "image": "/assets/images/preview/brain/brain_4.png"
+          }
+        ],
+        "en": [
+          {
+            "type": "video",
+            "src": "/assets/images/preview/brain/brain.mp4",
+            "image": "/assets/images/preview/brain/brain_1.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/brain/brain_2.png",
+            "image": "/assets/images/preview/brain/brain_2.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/brain/brain_3.png",
+            "image": "/assets/images/preview/brain/brain_3.png"
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/preview/brain/brain_4.png",
+            "image": "/assets/images/preview/brain/brain_4.png"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "ko": "2014.08 ~ 2018.02",
+        "en": "2014.08 ~ 2018.02"
+      },
+      "title": {
+        "ko": "ZEUS(Zone for Equipment Utilization Service)",
+        "en": "ZEUS(Zone for Equipment Utilization Service)"
+      },
+      "from": {
+        "ko": "KI",
+        "en": "KI"
+      },
+      "client": {
+        "ko": "NFEC",
+        "en": "NFEC"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring 프레임워크를 사용하여 웹사이트 개발 및 데이터베이스 설계",
+          "느린 페이지 응답 개선 및 일부 서비스 개발",
+          "웹사이트는 국가 장비를 사용하고자 하는 사람들을 위한 온라인 예약 시스템을 제공합니다."
+        ],
+        "en": [
+          "Developed and maintained related to the website using Spring framework and designed the database.",
+          "Improved slow page response and developed some services.",
+          "The website provides an online reservation system for someone who wants to use national equipment."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "TMAX JEUS",
+        "TMAX WEBTOB"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2013.07",
+        "en": "2013.07"
+      },
+      "title": {
+        "ko": "한국 온라인 전자 조달 시스템 유지보수",
+        "en": "Korea Online E-Procurement System Maintenance"
+      },
+      "from": {
+        "ko": "OPEN-TOP",
+        "en": "OPEN-TOP"
+      },
+      "client": {
+        "ko": "GOV",
+        "en": "GOV"
+      },
+      "role": {
+        "ko": "개발자",
+        "en": "Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring 프레임워크와 Oracle을 사용하여 웹사이트 관련 서비스 개발 및 유지보수",
+          "웹사이트는 그룹 정보 서비스입니다."
+        ],
+        "en": [
+          "Developed and maintained services related to the website with Spring Framework and Oracle.",
+          "The website is for group information service."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "Oracle"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    }
+  ]
+}
