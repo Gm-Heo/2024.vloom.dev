@@ -32,13 +32,13 @@
           "시스템 관련 모든 서비스 유지보수 및 관리"
         ],
         "en": [
-          "Developed a website for ERP, POS, and KIOSK systems using the Spring framework, Java, and JavaScript, and set up an Apache server with MySQL on Linux hosted on Amazon EC2. Also designed the database",
-          "Designed and implemented a microservices architecture",
-          "Optimized the website for smartphones and desktops",
-          "Installed and configured an SSL certificate on the server",
-          "Collaborated with clients on design, processes, and concepts",
-          "Developed a kiosk program and a POS program",
-          "Maintained and managed all services related to the system"
+          "Developed a website for ERP, POS, and KIOSK systems using the Spring framework, Java, and JavaScript. Set up an Apache server with MySQL on a Linux-based Amazon EC2 instance and designed the database.",
+          "Designed and implemented a microservices architecture to enhance scalability and maintainability.",
+          "Optimized the website for both smartphones and desktops to ensure a seamless user experience.",
+          "Installed and configured an SSL certificate to enhance security and encrypt communications.",
+          "Collaborated with clients to refine design, workflows, and system concepts.",
+          "Developed and deployed kiosk and POS programs to support business operations.",
+          "Managed and maintained all system-related services, ensuring stability and performance."
         ]
       },
       "tech": [
@@ -114,9 +114,9 @@
           "클라이언트와 협업하여 프로세스 및 개념 논의"
         ],
         "en": [
-          "Developed and maintained a program for KT&G global users.",
-          "Improved connection speed, database connection pooling, and SQL queries.",
-          "Collaborated with clients to discuss processes and concepts."
+         "Developed and maintained a system for KT&G global users, ensuring reliability and performance.",
+          "Optimized connection speed, enhanced database connection pooling, and improved SQL query efficiency.",
+          "Worked closely with clients to define workflows and refine system concepts."
         ]
       },
       "tech": [
@@ -212,10 +212,10 @@
           "Kotlin 및 Swift를 사용하여 Android 및 iOS 플랫폼용 홈 화면 위젯 개발 및 구현"
         ],
         "en": [
-          "Developed a mobile app using Flutter.",
-          "Led meetings between designers and clients.",
-          "Developed and optimized the app for both iOS and Android platforms.",
-          "Developed and implemented home screen widgets for both Android and iOS platforms using Kotlin and Swift."
+          "Developed a cross-platform mobile app using Flutter.",
+          "Facilitated meetings between designers and clients to align project goals.",
+          "Optimized the app’s performance and usability for both iOS and Android.",
+          "Designed and implemented home screen widgets for iOS and Android using Swift and Kotlin."
         ]
       },
       "tech": [
@@ -272,11 +272,11 @@
           "현재 시간당 3,000건 이상의 주문을 안정적으로 처리"
         ],
         "en": [
-          "Developed a complete delivery system using Spring Framework and designed the database.",
-          "Improved API connection speed, database connection pooling, and SQL query performance.",
-          "Collaborated with delivery companies and ordering partners.",
-          "Developed an order routing system that receives orders from partner websites and forwards them to registered delivery companies.",
-          "The system is currently handling over 3,000 orders per hour with stable performance."
+          "Developed a full-scale delivery system using the Spring Framework and designed the database architecture.",
+          "Optimized API response times, enhanced database connection pooling, and improved SQL query performance.",
+          "Coordinated with delivery companies and ordering partners to streamline order processing.",
+          "Built an order routing system that receives orders from partner websites and efficiently forwards them to registered delivery companies.",
+          "Ensured stable performance, successfully handling over 3,000 orders per hour."
         ]
       },
       "tech": [
@@ -906,13 +906,13 @@
           "웹사이트는 실시간으로 번개 탐지 데이터를 맵에 표시하고 사용자가 정의한 영역에서 번개가 감지되면 경고 메시지를 표시"
         ],
         "en": [
-          "Developed a website using Spring framework and designed database.",
-          "Calculated and displayed about lightning position using PostgreSQL with PostGIS.",
-          "Visualized lightning data on the custom map using openlayer.js.",
-          "Improved slow page response.",
-          "Joined client meetings to discuss visualization and concepts.",
-          "Collaborated with partner companies to collect sensor data.",
-          "The website displays lightning detection data on a map in real-time and displays warning messages when lightning is detected in a user-defined area."
+          "Developed a website using the Spring framework and designed the database architecture.",
+          "Processed and visualized lightning strike locations using PostgreSQL with PostGIS.",
+          "Integrated OpenLayers.js to render real-time lightning data on a custom map.",
+          "Optimized page performance, significantly improving response time.",
+          "Participated in client meetings to refine visualization strategies and user requirements.",
+          "Collaborated with partner companies to integrate and process sensor data.",
+          "Implemented a real-time lightning detection and alert system, notifying users when lightning is detected within a predefined area."
         ]
       },
       "tech": [
