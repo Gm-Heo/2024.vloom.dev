@@ -7,7 +7,7 @@
       },
       "title": {
         "ko": "애프터컴퍼니 통합 시스템",
-        "en": "aftercompany hole system"
+        "en": "company-wide system development and maintenance"
       },
       "from": {
         "ko": "애프터컴퍼니",
@@ -244,8 +244,8 @@
     },
     {
       "date": {
-        "ko": "2022.06 ~ 2022.09",
-        "en": "2022.06 ~ 2022.09"
+        "ko": "2018.06 ~ 2021.12",
+        "en": "2018.06 ~ 2021.12"
       },
       "title": {
         "ko": "배달 API 시스템",
@@ -283,6 +283,47 @@
         "Spring Framework",
         "Java",
         "JavaScript",
+        "MySQL"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
+        "ko": "2021.08 ~ 2021.10",
+        "en": "2021.08 ~ 2021.10"
+      },
+      "title": {
+        "ko": "해피크루 배달 앱 서비스",
+        "en": "happy-crew delivery system"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "한국학중앙연구원",
+        "en": "The Academy of Korean Studies"
+      },
+      "role": {
+        "ko": "풀스택 개발자 및 클라이언트 개발자",
+        "en": "Full-Stack Developer and Client Developer"
+      },
+      "description": {
+        "ko": [
+          "Happy Crew 배달 드라이버를 위한 API 서버를 개발",
+          "웹 애플리케이션 서버의 전체 구조와 기본 프레임워크를 설계하고 개발"
+        ],
+        "en": [
+          "Developed the API server for Happy Crew delivery drivers.",
+          "Designed and developed the overall structure and framework of the web application server."
+        ]
+      },
+      "tech": [
+        "Java",
+        "Spring Framework",
         "MySQL"
       ],
       "preview": {
@@ -426,6 +467,54 @@
     },
     {
       "date": {
+        "ko": "2018.10 ~ 2020.12",
+        "en": "2018.10 ~ 2020.12"
+      },
+      "title": {
+        "ko": "팝업리테일 시스템",
+        "en": "Popup-retail system"
+      },
+      "from": {
+        "ko": "프리랜서",
+        "en": "Freelancer"
+      },
+      "client": {
+        "ko": "afterspace",
+        "en": "애프터스페이스"
+      },
+      "role": {
+        "ko": "풀스택 개발자",
+        "en": "Full-Stack Developer"
+      },
+      "description": {
+        "ko": [
+          "Spring Framework를 사용하여 임대 주택 웹사이트를 개발하고, Amazon EC2의 리눅스 환경에 Apache 서버와 MySQL을 설정하며 데이터베이스를 설계",
+          "웹사이트를 스마트폰과 데스크탑 플랫폼에 최적화",
+          "Tomcat 서버에 SSL 인증서를 설치하고 구성",
+          "디자인, 프로세스 및 개념에 대해 클라이언트와 협업",
+          "이 시스템은 자신의 브랜드를 가진 사람들이 제품을 판매할 공간을 임대할 수 있는 플랫폼을 제공"
+        ],
+        "en": [
+          "Developed a rental house website using the Spring Framework, set up Apache server and MySQL on a Linux-based Amazon EC2 instance, and designed the database.",
+          "Optimized the website for both smartphone and desktop platforms.",
+          "Installed and configured an SSL certificate on the Tomcat server.",
+          "Collaborated with clients to refine design, processes, and concepts.",
+          "The system provides a rental platform for individuals with their own brand who need space to sell products."
+        ]
+      },
+      "tech": [
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "MySQL"
+      ],
+      "preview": {
+        "ko": [],
+        "en": []
+      }
+    },
+    {
+      "date": {
         "ko": "2018.03 ~ 2019.05",
         "en": "2018.03 ~ 2019.05"
       },
@@ -454,11 +543,11 @@
           "디자인, 프로세스 및 개념에 대해 클라이언트와 협업"
         ],
         "en": [
-          "Developed a coffee shop online store using Spring Framework and set up Apache server with MySQL on Amazon EC2 Linux instance; also designed the database.",
-          "Optimized for smartphone and desktop platforms.",
-          "Developed a Java client program that communicates with the web server using WebSocket.",
-          "Implemented a solution for client-side printer communication to handle customer orders from the website.",
-          "Collaborated with clients on design, processes, and concepts."
+          "Developed an online store for a coffee shop using the Spring Framework, Apache server, and MySQL on an Amazon EC2 Linux instance, including database design.",
+          "Optimized the platform for seamless performance on both smartphone and desktop.",
+          "Created a Java client program utilizing WebSocket for real-time communication with the web server.",
+          "Implemented client-side printer communication to handle customer orders efficiently.",
+          "Collaborated with clients to refine design, processes, and system functionality."
         ]
       },
       "tech": [
